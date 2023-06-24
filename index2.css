@@ -1,0 +1,99 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.perant{
+    display: flex;
+    align-items: center;
+}
+ol{
+    margin-left: 100px;
+}
+
+body {
+    background-color: rgb(251, 251, 93);
+}
+
+h1 {
+    text-align: center;
+}
+
+.Container {
+    justify-content: center;
+    font-weight: bold;
+    width: 80%;
+}
+
+
+ol li {
+    margin-top: 10px;
+}
+
+.box {
+    background-color: rgb(67, 209, 67);
+    width: 100px;
+    height: 100px;
+    Transition-property: width;
+}
+
+.box:hover {
+    width: 310px;
+}
+
+
+#Box1 {
+    transition-duration: 1s;
+    transition-timing-function: ease-in;
+}
+
+#Box2 {
+    Transition-property: width, height;
+    transition-duration: 2s,3s;
+    transition-timing-function: ease-out;
+}
+
+#Box2:hover {
+    width: 250px;
+    height: 300px;
+}
+
+#Box3 {
+    transition-duration: 2s;
+    transition-timing-function: ease-in-out;
+}
+
+#Box4 {
+    transition-duration: 1.5s;
+    transition-timing-function: linear;
+}
+
+
+#Box5 {
+    transition-duration: 3s;
+}
+
+
+#Box6 {
+    transition-duration: 3s;
+}
+
+
+#Box7 {
+    transition-duration: 3s;
+}
+a {
+    display: block;
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+#button1{
+    color: brown;
+}
+
+#button2{
+    color: blue;
+}
